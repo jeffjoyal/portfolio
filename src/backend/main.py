@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from typing import List
 
-app = FastAPI()
+app = FastAPI(debug=True)
 
 inputs_list = []
 
